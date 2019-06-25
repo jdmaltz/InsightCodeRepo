@@ -1,0 +1,1 @@
+This repo employs Chris Choy's 3d-R2N2 and BO Yang 3d-RecGAN as well as Jmaher19 construction in order to construct 3d representations of heads. THis is is a work in progress and does not work yet. Please stay tuned.
