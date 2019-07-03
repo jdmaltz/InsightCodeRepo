@@ -12,3 +12,7 @@ python demo.py prediction.obj
 
 or rename prediction to the name of your output voxel mesh.
 
+input images for the demo go into the imgs folder
+
+to experiment with the R2N2 model follow the instructions of the readme of the 3D-R2N2 folder
+
