@@ -4,6 +4,9 @@ Demo code for the paper
 Choy et al., 3D-R2N2: A Unified Approach for Single and Multi-view 3D Object
 Reconstruction, ECCV 2016
 '''
+'''
+modified for 3d Face project jdmaltz 
+'''
 import os
 import sys
 if (sys.version_info < (3, 0)):
@@ -37,7 +40,7 @@ def download_model(fn):
 def load_demo_images():
     ims = []
     for i in range(3):
-        im = Image.open('imgs/d%d.png' % i)
+        im = Image.open('imgs/f%d.png' % i)
         ims.append([np.array(im).transpose(
             (2, 0, 1)).astype(np.float32) / 255.])
     return np.array(ims)
